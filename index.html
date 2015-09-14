@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta content="width=device-width, initial-scale=1" name="viewport">
+
+	<title>JavaScript</title>
+	<meta content="Javascript being tested." name="description">
+	<meta content="Brandon Yee" name="author">
+	<link href="style.css" rel="stylesheet"><!--See footer for the Google Hosted Libraries link.-->
+	<link href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/themes/smoothness/jquery-ui.css" rel="stylesheet">
+	<!--[if lt IE 9]>
+		<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+	<!-- Optional. 
+	<base target="_blank">
+	-->
+</head>
+<body onload="">
+<h2 class="title" id="title"></h2>
+
+<p class="sub">Page is loaded if you see this message.</p>
+
+<form id="eForm">
+	<p>
+		Message:<br />
+		<input id="eText" type="text" name="eText" value="Testing 123" />
+	</p>
+	<p>
+		Delimiter:
+		<input id="eDelim" type="text" name="eDelim" value="1029" />
+		<br />
+		Additional:
+		<input id="eAddit" type="text" name="eAddit" value="3" />
+	</p>
+	<input type="submit" name="Submit" value="Encode">
+</form>
+
+<form id="dForm">
+	<p>
+		Message:<br />
+		<input id="dText" type="text" name="dText" value="" />
+	</p>
+	<p>
+		Delimiter:
+		<input id="dDelim" type="text" name="dDelim" value="1029" />
+		<br />
+		Additional:
+		<input id="dAddit" type="text" name="dAddit" value="3" />
+	</p>
+	<input type="submit" name="Submit" value="Decode">
+</form>
+
+<div id="result"></div>
+
+<footer>
+	<!-- Google CDN: https://developers.google.com/speed/libraries/ -->
+	<script src="jquery-2.1.4.min.js"></script>
+
+	<!-- My code. -->
+	<script src="script.js"></script>
+
+</footer>
+</body>
+</html>

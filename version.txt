@@ -1,0 +1,18 @@
+V. A1.0.0
+
+# This Version
+This is a working version of the encryption cipher. The HTML has two simple forms. The JS is jQuery and has three main functions.
+
+### Other Files
+The script backup does not divide the three main parts into functions.
+
+### Issues
+The HTML is very bare, but it still bothers me how the form clears the value.
+
+# Next Version
+- Turn the functions into objects.
+- Create the delimiter automatically.
+- Use a more complicated additional.
+
+### Very Future
+Do a real HTML page with CSS. Also upload to Github.
