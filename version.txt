@@ -16,3 +16,4 @@ The HTML is very bare, but it still bothers me how the form clears the value.
 
 ### Very Future
 Do a real HTML page with CSS. Also upload to Github.
+s
